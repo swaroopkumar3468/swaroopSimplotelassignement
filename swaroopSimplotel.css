@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    background-color: #FF7F7F;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    font-family: "Sans-Serif";
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.menu-image {
+    height: 40px;
+    width: 50px;
+}
+
+.burger-image {
+    height: 300px;
+    width: 100%;
+
+    background-size: cover;
+}
+
+.lorem-outercontrainer {
+    height: 300px;
+    width: 100%;
+    display: flex;
+
+}
+
+.lorem-conatiner {
+    height: 300px;
+    width: 100%;
+    padding-left: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background: linear-gradient(to right, #FFFFED, #FFB6C1);
+}
+
+.heading {
+    font-size: 20px;
+    font-family: "Arial";
+}
+
+.para {
+    font-size: 10px;
+    font-family: "Arial";
+}
+
+.button {
+    background-color: #FF7F7F;
+    font-family: "Arial";
+    color: #ffffff;
+    border-style: none;
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+    background: linear-gradient(to right, #FFFFED, #FFB6C1);
+}
+
+.stag-image {
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.prawns-image {
+    height: 310px;
+    width: 150px;
+    background-size: cover;
+}
+
+.stag-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.items-container {
+    display: flex;
+}
+
+.last-container {
+    background-color: #FF7F7F;
+    height: 200px;
+    width: 250px;
+    padding-left: 10px;
+
+}
+
+.head2 {
+    font-size: 30px;
+    font-family: "Arial";
+}
+
+.para2 {
+    font-size: 15px;
+    font-family: "Arial";
+}
+
+.arrow-image {
+    width: 20px;
+    height: 20px;
+}
+
+.arrow-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .burger-image {
+        height: 300px;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .lorem-outercontrainer {
+        height: 300px;
+        width: 100%;
+        display: flex;
+    }
+
+    .lorem-conatiner {
+        height: 300px;
+        width: 50%;
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        background: linear-gradient(to right, #FFFFED, #FFB6C1);
+    }
+
+    .bottom-container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 40px;
+        background: linear-gradient(to right, #FFFFED, #FFB6C1);
+    }
+
+    .stag-container {
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+    }
+
+    .items-container {
+        display: flex;
+    }
+
+    .last-container {
+        background-color: #FF7F7F;
+        height: 200px;
+        width: 250px;
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .lorem-conatiner {
+        width: 100%;
+    }
+
+    .bottom-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .stag-image,
+    .prawns-image {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .last-container {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
